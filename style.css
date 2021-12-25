@@ -1,0 +1,407 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+.main-wrrap {
+  width: 100%;
+}
+
+.wrrap {
+  width: 960px;
+  display: block;
+  margin: 0 auto;
+}
+.nav-bg {
+  background: #222222;
+}
+#Nav {
+}
+#Nav ul {
+  background-color: #222222;
+  height: 40px;
+}
+#Nav ul li {
+  float: left;
+  list-style-type: none;
+  padding: 5px 10px;
+}
+#Nav ul li a {
+  color: #ffff;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+#Nav ul li a:hover {
+  color: #f4d03f;
+}
+
+.img-bg {
+  background-color: #f26f05;
+}
+
+#image img {
+  width: 960px;
+}
+
+.project-bg {
+  background-color: #222222;
+}
+#projecideas {
+  background-color: #222222;
+  overflow: hidden;
+  margin-top: -4px;
+}
+#projecideas h2 {
+  text-align: center;
+  color: #f4d03f;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+#projecideas p {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 50px;
+  color: #919191;
+}
+
+#projecideas .projectwrapper .projectleft {
+  width: 300px;
+  margin-right: 20px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+  float: left;
+}
+#projecideas .projectwrapper .projectleft img {
+  width: 300px;
+}
+#projecideas .projectwrapper .projectleft p {
+  color: #ffff;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+#projecideas .projectwrapper .projectleft .content {
+  color: #919191;
+}
+#projecideas .projectwrapper .projectleft a {
+  text-decoration: none;
+  font-size: 15px;
+  border: 1px solid #ffff;
+  border-radius: 25px;
+  padding: 5px 15px;
+  color: #ffff;
+  margin-left: 100px;
+}
+#projecideas .projectwrapper .projectleft a:hover {
+  background-color: #f4d03f;
+  color: #262626;
+  border: 1px solid #f4d03f;
+}
+
+#projecideas .projectwrapper .projectright {
+  width: 300px;
+
+  margin-left: 20px;
+  margin-bottom: 50px;
+  float: left;
+}
+#projecideas .projectwrapper .projectright img {
+  width: 300px;
+  height: 213px;
+}
+#projecideas .projectwrapper .projectright p {
+  color: #ffff;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+#projecideas .projectwrapper .projectright .content {
+  color: #919191;
+}
+#projecideas .projectwrapper .projectright a {
+  text-decoration: none;
+  font-size: 15px;
+  border: 1px solid #ffff;
+  border-radius: 25px;
+  padding: 5px 15px;
+  color: #ffff;
+  margin-left: 100px;
+}
+#projecideas .projectwrapper .projectright a:hover {
+  background-color: #f4d03f;
+  color: #262626;
+  border: 1px solid #f4d03f;
+}
+
+#testimonial {
+  background-image: url(img/textImage.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 450px;
+}
+
+#testimonial h2 {
+  text-align: center;
+  color: #f4d03f;
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+  top: 80px;
+  margin-top: 30px;
+}
+
+#testimonial p {
+  text-align: center;
+  color: #f48642;
+  font-size: 25px;
+  position: relative;
+  top: 100px;
+  width: 390px;
+  margin-top: 20px;
+}
+
+#services {
+  background-color: #ffff;
+  overflow: hidden;
+}
+#services .leftservice {
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+#services .leftservice h2 {
+  text-align: center;
+}
+#services .rightservice h2 {
+  text-align: center;
+}
+
+#services .leftservice .logo1 {
+  width: 50px;
+  position: relative;
+  left: 120px;
+  height: 50px;
+}
+#services .rightservice .logo3 {
+  width: 50px;
+  position: relative;
+  margin-top: 8px;
+  left: 120px;
+  height: 50px;
+}
+#services .leftservice a {
+  text-decoration: none;
+  font-size: 15px;
+  border: 1px solid #919191;
+  border-radius: 25px;
+  padding: 5px 15px;
+  color: #919191;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+#services .leftservice a:hover {
+  background-color: orange;
+  color: #ffff;
+  border: 1px solid orange;
+}
+
+#services .rightservice a {
+  text-decoration: none;
+  font-size: 15px;
+  border: 1px solid #919191;
+  border-radius: 25px;
+  padding: 5px 15px;
+  color: #919191;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+#services .rightservice a:hover {
+  background-color: orange;
+  color: #ffff;
+  border: 1px solid orange;
+}
+
+#services .middleservice a {
+  text-decoration: none;
+  font-size: 15px;
+  border: 1px solid #919191;
+  border-radius: 25px;
+  padding: 5px 15px;
+  color: #919191;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+#services .middleservice a:hover {
+  background-color: orange;
+  color: #ffff;
+  border: 1px solid orange;
+}
+
+#services .middleservice {
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+#services .middleservice h2 {
+  text-align: center;
+}
+#services .middleservice .logo2 {
+  width: 50px;
+  position: relative;
+  left: 120px;
+  height: 50px;
+}
+#services .rightservice .logo3 {
+  width: 50px;
+  height: 50px;
+}
+
+#services .leftservice .img1 {
+  width: 300px;
+  height: 200px;
+}
+#services .middleservice .img2 {
+  width: 300px;
+}
+#services .rightservice .img3 {
+  width: 300px;
+}
+
+#footer {
+  background-color: #222222;
+  color: #ffff;
+  text-align: center;
+  height: 40px;
+  padding-top: 15px;
+}
+
+.footer-bg {
+  background-color: #222222;
+}
+
+#info {
+  background-color: #f26f05;
+  overflow: hidden;
+  height: 200px;
+}
+#info .social {
+  float: left;
+  margin-right: 20px;
+  margin-left: 180px;
+}
+
+#info .social h2 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+
+  color: #222222;
+}
+#info .social p {
+  text-align: center;
+  color: #ffff;
+  text-align: justify;
+}
+
+#info .phy {
+  float: left;
+  margin-right: 20px;
+  margin-left: 80px;
+}
+
+#info .phy h2 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  color: #222222;
+}
+#info .phy p {
+  text-align: center;
+  color: #ffff;
+  text-align: justify;
+}
+
+.info-bg {
+  background-color: #f26f05;
+}
+.social {
+  float: left;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #222222;
+  font-family: Arial;
+  padding-left: 200px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #f26f05;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
